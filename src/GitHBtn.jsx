@@ -6,8 +6,8 @@ import Tooltip from '@mui/material/Tooltip';
 export default function GitHBtn() {
     return (
         <Tooltip title="View GitHub Profile">
-            <IconButton>
-                <GitHubIcon sx={{ width: 35, height: 35, }} style={{ color: "#ff008d" }} />
+            <IconButton  className='NavGitHub'>
+                <GitHubIcon sx={{ width: 35, height: 35, }} />
             </IconButton>
         </Tooltip>
     );

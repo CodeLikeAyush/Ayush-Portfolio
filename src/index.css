@@ -23,7 +23,9 @@ body {
 .colorVar {
   --themeColor: #ff008d;
 }
-
+.NavGitHub {
+  color: #ff008d !important;
+}
 .active {
   color: #000000 !important;
 }
@@ -106,6 +108,9 @@ a {
   }
   .active {
     color: white !important;
+  }
+  .NavGitHub {
+    color: black !important;
   }
 }
 @media screen and (max-width: 870px) {
