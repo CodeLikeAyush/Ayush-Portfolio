@@ -112,6 +112,9 @@ a {
   .NavGitHub {
     color: black !important;
   }
+  #navbarSupportedContent {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 870px) {
   .showcase-area .container {

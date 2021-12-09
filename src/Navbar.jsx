@@ -22,17 +22,17 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link "style={{color:"#ff008d"}} aria-current="page" to="/"
+                                <NavLink className="nav-link " style={{ color: "#ff008d" }} aria-current="page" to="/"
                                     activeClassName="active"
                                 >Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link "style={{color:"#ff008d"}} to="/projects"
+                                <NavLink className="nav-link " style={{ color: "#ff008d" }} to="/projects"
                                     activeClassName="active"
                                 >Projects</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link "style={{color:"#ff008d"}} to="/contact"
+                                <NavLink className="nav-link " style={{ color: "#ff008d" }} to="/contact"
                                     activeClassName="active"
                                 >Contact Me</NavLink>
                             </li>
@@ -49,7 +49,7 @@ function Navbar() {
                                 </ul>
                             </li> */}
                             <li className="nav-item">
-                                <NavLink className="nav-link "style={{color:"#ff008d"}}
+                                <NavLink className="nav-link " style={{ color: "#ff008d" }}
                                     to="/journey"
                                     activeClassName="active"
                                 >My Journey</NavLink>
