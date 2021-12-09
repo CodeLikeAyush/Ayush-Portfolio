@@ -15,8 +15,9 @@ function Home() {
                     </div>
 
                     <p className="text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Delectus eius odit, magnam qui ex perferendis vitae!
+                        With a lot of efforts and learnings,
+                        I created this website using React, Material-UI and Bootstrap. Hope you would like it.
+
                     </p>
 
                     <div className="btnDiv">
