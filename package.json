@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://github.com/CodeLikeAyush/ayush-portfolio-experiment",
+  "homepage": "https://github.com/CodeLikeAyush/ayush-portfolio-experiment.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
