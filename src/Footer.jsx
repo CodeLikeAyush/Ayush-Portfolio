@@ -23,7 +23,9 @@ function Footer() {
             <footer className="text-center text-lg-start   sticky-bottom mt-5" style={{ backgroundColor: "#ff008d" }}>
                 <div className="container-fluid d-flex justify-content-center py-5">
                     <Stack direction="row" spacing={5}>
-                        <Button >{< InstagramIcon style={{ color: "black", fontSize: "2.5em" }} />}</Button>
+                        <Button
+                            href={footerLinks.instagram}
+                            target="_blank">{< InstagramIcon style={{ color: "black", fontSize: "2.5em" }} />}</Button>
                         <Button
                             href={footerLinks.facebook}
                             target="_blank">{<FacebookOutlinedIcon style={{ color: "black", fontSize: "2.5em" }} />}</Button>

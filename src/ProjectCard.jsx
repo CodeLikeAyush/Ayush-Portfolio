@@ -1,51 +1,64 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import './index.css';
+// import Card from '@mui/material/Card';
+// import CardActions from '@mui/material/CardActions';
+// import CardContent from '@mui/material/CardContent';
+// import CardMedia from '@mui/material/CardMedia';
+// import Button from '@mui/material/Button';
+// import Typography from '@mui/material/Typography';
 
 
 // import CodeIcon from '@mui/icons-material/Code';
-import VisibilityIcon from '@mui/icons-material/Visibility';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import ViewProjBtn from './SrcCodeBtn';
+// import VisibilityIcon from '@mui/icons-material/Visibility';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import ViewProjBtn from './SrcCodeBtn';
 export default function ImgMediaCard() {
     return (
-        <Card sx={{ maxWidth: 345 }} className="my-5">
-            <CardMedia
-                component="img"
-                alt="green iguana"
-                height="140"
-                image="https://picsum.photos/200/300"
-            />
-            <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                    Lizard
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica
-                </Typography>
-            </CardContent>
-            <CardActions>
-                <Button
-                    variant="outlined"
-                    size="small"
-                    endIcon={<VisibilityIcon className="mx-2" />}
-                    className="mx-2 my-3"
-                >Demo</Button>
+        // <Card sx={{ maxWidth: 345 }} className="my-5">
+        //     <CardMedia
+        //         component="img"
+        //         alt="green iguana"
+        //         height="140"
+        //         image="https://picsum.photos/200/300"
+        //     />
+        //     <CardContent>
+        //         <Typography gutterBottom variant="h5" component="div">
+        //             Lizard
+        //         </Typography>
+        //         <Typography variant="body2" color="text.secondary">
+        //             Lizards are a widespread group of squamate reptiles, with over 6,000
+        //             species, ranging across all continents except Antarctica
+        //         </Typography>
+        //     </CardContent>
+        //     <CardActions>
+        //         <Button
+        //             variant="outlined"
+        //             size="small"
+        //             endIcon={<VisibilityIcon className="mx-2" />}
+        //             className="mx-2 my-3"
+        //         >Demo</Button>
 
-                <Button
-                    variant="outlined"
-                    size="small"
-                    endIcon={<GitHubIcon className="mx-2" />}
-                    className="mx-2 my-3"
-                >GitHub</Button>
-                <ViewProjBtn />
-            </CardActions>
-        </Card>
+        //         <Button
+        //             variant="outlined"
+        //             size="small"
+        //             endIcon={<GitHubIcon className="mx-2" />}
+        //             className="mx-2 my-3"
+        //         >GitHub</Button>
+        //         <ViewProjBtn />
+        //     </CardActions>
+        // </Card>
+        <div class="card mx-auto" style={{ width: "18rem" }}>
+            <img src="https://picsum.photos/200/100" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <hr />
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                {/* <a href="#" class="btn ">View on GitHub</a> */}
+                {/* <div className="btnDiv"> */}
+                        <button href="#" className="btn btn-sm my-3">View on Github</button>
+                    {/* </div> */}
+            </div>
+        </div>
     );
 }
 

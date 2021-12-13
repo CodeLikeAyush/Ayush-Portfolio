@@ -10,6 +10,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: yellow !important;
 
   overflow-x: hidden;
   width: 100%;
@@ -44,7 +45,7 @@ body {
 }
 #home {
   margin-top: 100px !important ;
-  /* padding-left: 100px; */
+  padding-left: 15em;
 }
 .hello {
   width: 80%;
@@ -77,17 +78,18 @@ a {
 }
 
 .btn {
-  padding: 0.9rem 1.9rem;
+  padding: 0.7em 1.9em;
   /* color: rgb(255, 255, 255) !important; */
   color: #ff008d !important;
-  border: 1px solid var(--themeColor);
+  /* border: 1px solid var(--themeColor) !important; */
+  border: 1px solid #ff008d !important;
   background-color: transparent;
   border-radius: 60px;
   transition: all 0.7s ease;
 }
 
 .btn:hover {
-  background-color: var(--themeColor);
+  background-color: #ff008d;
   color: black !important;
   border: 1px solid var(--themeColor);
 }
@@ -97,6 +99,55 @@ a {
   margin: 1.9rem 0 2.5rem;
   max-width: 600px;
   line-height: 2.3;
+  /* margin: 5px 0px !important; */
+}
+
+input[type="radio"] {
+  margin-right: 0.5em !important;
+  position: relative;
+  top: 0.2em;
+  height: 1em;
+  width: 1em;
+  cursor: pointer;
+}
+.radio {
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  margin-right: 0.5em !important;
+}
+input,
+textarea,
+select {
+  /* margin-top: 1.2em !important; */
+  border: 1px solid black !important;
+  border-radius: 0.5em !important;
+  padding: 0.5em auto !important;
+  outline: none;
+  color: black !important;
+  /* font-weight: bold !important; */
+  font-size: 1.3em !important;
+  background-color: transparent !important;
+}
+.form-div {
+  margin-top: 10rem !important;
+  /* background-image: linear-gradient(to bottom right, #efff00, #00dcff); */
+  border: 1px solid var(--themeColor) !important;
+  border-radius: 1.5em !important;
+  /* box-shadow: 2px 2px 20px black; */
+  box-shadow: 2px 2px 50px black;
+}
+
+.contactHeading {
+  /* position: fixed !important;
+  top: 3em; */
+  margin-top: 1em !important;
+  /* background-color: #ff008d; */
+  color: #ff008d;
+  /* background-color: black; */
+  line-height: 3em !important;
+  font-weight: bold;
+  font-size: 4em !important;
 }
 
 @media screen and (max-width: 992px) {
@@ -116,6 +167,12 @@ a {
     text-align: center;
   }
 }
+
+.card {
+  box-shadow: 2px 2px 15px black;
+  /* background-image: linear-gradient(to bottom right, #efff00, #00dcff); */
+  /* background-color: #00e1ff; */
+}
 @media screen and (max-width: 870px) {
   .showcase-area .container {
     text-align: center;
@@ -131,6 +188,9 @@ a {
 
   .big-title {
     font-size: 1.1rem;
+  }
+  #home {
+    padding: unset;
   }
 }
 
