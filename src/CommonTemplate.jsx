@@ -10,7 +10,7 @@ function CommonTemplate(props) {
                 <div>
                     <div className="big-title">
                         <h1>Hi there !</h1>
-                        <h1>A warm welcom by
+                        <h1>A warm welcome by
                             <br /><strong>AYUSH RAJ</strong>
                         </h1>
                     </div>
