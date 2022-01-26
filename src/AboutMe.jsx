@@ -5,7 +5,7 @@ import VerticalLinearStepper from './VertStepper';
 
 
 
-function MyJourney() {
+function AboutMe() {
     return (
         <div
             className="container mx-auto mt-5"
@@ -22,4 +22,4 @@ function MyJourney() {
     )
 }
 
-export default MyJourney;
+export default AboutMe;

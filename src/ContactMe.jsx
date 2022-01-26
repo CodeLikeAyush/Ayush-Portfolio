@@ -7,9 +7,15 @@ import contact from '../src/static/images/contact.png'
 
 // function ContactMe(props) {
 function ContactMe() {
+
+    const functoScroll = (e) => {
+        e.preventDefault();
+        window.scrollTo(0, 650);
+    }
     return (
+
         <>
-            <CommonTemplate imgSrc={contact} btnText="Scroll Down" link="#top" className="my-5" />
+            <CommonTemplate imgSrc={contact} btnText="Scroll Down" link="" targt="" scrollFunc={functoScroll} className="my-5" />
 
             <div class="container-fluid w-75 mx-auto border rounded py-5 px-5 form-div" id="top" >
                 <div class="row">

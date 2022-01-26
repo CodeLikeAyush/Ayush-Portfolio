@@ -5,7 +5,7 @@ import Projects from './Projects';
 import ContactMe from './ContactMe';
 import ErrorPage from './ErrorPage';
 import Footer from './Footer';
-import MyJourney from './MyJourn';
+import AboutMe from './AboutMe';
 import CustomizedSnackbars from './SnackBar';
 
 
@@ -22,7 +22,7 @@ function App() {
         <Route exact path="/projects" element={<Projects />} />
         {/* <Route exact path="/contact" element={<ContactMe name="Achkon" />} /> */}
         <Route exact path="/contact" element={<ContactMe />} />
-        <Route exact path="/journey" element={<MyJourney />} />
+        <Route exact path="/aboutme" element={<AboutMe />} />
         <Route exact path="*" element={<ErrorPage />} />
       </Routes>
 

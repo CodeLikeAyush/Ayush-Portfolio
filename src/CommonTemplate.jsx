@@ -22,7 +22,7 @@ function CommonTemplate(props) {
                     </p>
 
                     <div className="btnDiv" >
-                        <a className="btn btn-lg">{props.btnText}</a>
+                        <a href={props.link} className="btn btn-lg" onClick={props.scrollFunc} target={props.targt} >{props.btnText}</a>
                     </div>
                 </div>
 

@@ -50,9 +50,9 @@ function Navbar() {
                             </li> */}
                             <li className="nav-item">
                                 <NavLink className="nav-link " style={{ color: "#ff008d" }}
-                                    to="/journey"
+                                    to="/aboutme"
                                     activeClassName="active"
-                                >My Journey</NavLink>
+                                >About Me</NavLink>
                             </li>
                         </ul>
 
@@ -63,7 +63,7 @@ function Navbar() {
                         <ul className="navbar-nav mx-4">
                             <li className="nav-item text-light">
                                 <Button
-                                    href="https://github.com/AyushRaj0101"
+                                    href="https://github.com/CodeLikeAyush"
                                     target="_blank" >{<GitHBtn />}
                                 </Button>
                             </li>
