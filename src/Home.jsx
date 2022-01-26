@@ -7,7 +7,7 @@ function Home() {
     return (
         <div>
             {/* <img src={hello} alt="" /> */}
-            <CommonTemplate imgSrc={hello} btnText="About Me" link="http://localhost:3000/porfolio-experiment#/aboutme" targt="" />
+            <CommonTemplate imgSrc={hello} btnText="About Me" link="https://codelikeayush.github.io/porfolio-experiment/#/aboutme" targt="" />
         </div>
     )
 }
