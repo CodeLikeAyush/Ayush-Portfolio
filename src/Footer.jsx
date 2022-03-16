@@ -17,10 +17,7 @@ import footerLinks from './FooterLinks';
 function Footer() {
     return (
         <>
-            {/* Remove the container if you want to extend the Footer to full width.  */}
-            {/* <div className="container my-5"> */}
-
-            <footer className="text-center text-lg-start   sticky-bottom mt-5" style={{ backgroundColor: "#ff008d" }}>
+            <footer className="text-center text-lg-start sticky-bottom mt-5" style={{ backgroundColor: "#ff008d" }}>
                 <div className="container-fluid d-flex justify-content-center py-5">
                     <Stack direction="row" spacing={5}>
                         <Button
@@ -41,16 +38,13 @@ function Footer() {
 
                 </div>
 
-                {/* Copyright  */}
                 <div className="text-center text-white p-3" style={{ backgroundColor: "#ff008d", lineHeight: "2em" }}>
                     &copy; 2021 Copyright :
                     <span className="text-white text-lg-center"> ayush raj</span>
                 </div>
-                {/* Copyright  */}
             </footer>
 
-            {/* </div> */}
-            {/* End of .container  */}
+
         </>
     )
 }

@@ -27,15 +27,24 @@ function Navbar() {
                                 >Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link " style={{ color: "#ff008d" }} to="/projects"
+                                <NavLink className="nav-link " style={{ color: "#ff008d" }}
+                                    to="/aboutme"
                                     activeClassName="active"
-                                >Projects</NavLink>
+                                >About Me</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link " style={{ color: "#ff008d" }} to="/contact"
                                     activeClassName="active"
                                 >Contact Me</NavLink>
                             </li>
+
+                            <li className="nav-item">
+                                <NavLink className="nav-link " style={{ color: "#ff008d" }} to="/projects"
+                                    activeClassName="active"
+                                >Projects</NavLink>
+                            </li>
+
+
 
                             {/* <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -48,12 +57,7 @@ function Navbar() {
                                     <li><a className="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li> */}
-                            <li className="nav-item">
-                                <NavLink className="nav-link " style={{ color: "#ff008d" }}
-                                    to="/aboutme"
-                                    activeClassName="active"
-                                >About Me</NavLink>
-                            </li>
+
                         </ul>
 
                         {/* <form className="d-flex">
