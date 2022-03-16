@@ -26,13 +26,13 @@ function AboutMe() {
 
 
                 <div className='d-block my-3 '>
-                    <h1 className='text-left px-5 py-2 bg-danger'>education</h1>
+                    <h1 className='text-left px-5 py-2 bg-danger'>🗒️education</h1>
                 </div>
                 <br />
 
 
                 <div className='d-block my-5' style={{ width: "90vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
-                    <h3 className='my-3 text-center'>High School</h3>
+                    <h3 className='my-3 text-center'>High School🏫</h3>
                     <div className='mx-3'>
                         <ul>
                             <li>School : Jawahar Navodaya Vidyalaya Gaya-2, Bihar</li>
@@ -43,7 +43,7 @@ function AboutMe() {
                 </div>
                 <br />
                 <div className='d-block my-5' style={{ width: "90vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
-                    <h3 className='my-3 text-center'>Intermediate</h3>
+                    <h3 className='my-3 text-center'>📚Intermediate</h3>
                     <div className='mx-3'>
                         <ul>
                             <li>School : Jawahar Navodaya Vidyalaya, Bangalore Urban</li>
@@ -54,7 +54,7 @@ function AboutMe() {
                 </div>
                 <br />
                 <div className='d-block my-5' style={{ width: "90vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
-                    <h3 className='my-3 text-center'>College</h3>
+                    <h3 className='my-3 text-center'>🎓College</h3>
                     <div className='mx-3'>
                         <ul>
                             <li>Degree : B.Tech</li>
@@ -68,13 +68,13 @@ function AboutMe() {
                 <br />
                 {/* <div style={{ height: "15em" }}></div> */}
                 <div className='d-block my-3 '>
-                    <h1 className='text-left px-5 py-2 bg-danger'>skills</h1>
+                    <h1 className='text-left px-5 py-2 bg-danger'>⚙️skills</h1>
                 </div>
                 <br />
 
 
                 <div className='d-block my-5' style={{ width: "90vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
-                    <h3 className='my-3 text-center'>Competitive Coding</h3>
+                    <h3 className='my-3 text-center'>🧑🏿‍💻Competitive Coding</h3>
                     <div className='mx-3'>
                         <ul>
                             <li>Language(s) : C & C++</li>
@@ -85,7 +85,7 @@ function AboutMe() {
                 </div>
                 <br />
                 <div className='d-block my-5' style={{ width: "90vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
-                    <h3 className='my-3 text-center'>web development</h3>
+                    <h3 className='my-3 text-center'>🔎web development</h3>
                     <div className='mx-3'>
                         <ul>
                             <li>HTML</li>

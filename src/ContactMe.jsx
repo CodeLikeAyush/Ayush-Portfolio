@@ -15,7 +15,18 @@ function ContactMe() {
     return (
 
         <>
-            <CommonTemplate imgSrc={contact} btnText="Scroll Down" link="" targt="" scrollFunc={functoScroll} className="my-5" />
+            <CommonTemplate H1="Good decision📌" H2="To contact me" name="" para="So just scroll down and fill-up the form." imgSrc={contact} btnText="Scroll Down" link="" targt="" scrollFunc={functoScroll} className="my-5" />
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1
+                className="text-center text-primary">
+
+                Contact Me</h1>
 
             <div class="container-fluid w-75 mx-auto border rounded py-5 px-5 form-div" id="top" >
                 <div class="row">

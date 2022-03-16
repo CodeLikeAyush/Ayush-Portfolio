@@ -9,15 +9,14 @@ function CommonTemplate(props) {
             <div className="container">
                 <div>
                     <div className="big-title">
-                        <h1>Hi there !</h1>
-                        <h1>A warm welcome by
-                            <br /><strong>AYUSH RAJ</strong>
+                        <h1>{props.H1}</h1>
+                        <h1>{props.H2}
+                            <br /><strong>{props.name}</strong>
                         </h1>
                     </div>
 
                     <p className="text">
-                        With a lot of efforts and learnings,
-                        I created this website using React, Material-UI and Bootstrap. Hope you would like it.
+                        {props.para}
 
                     </p>
 

@@ -130,7 +130,7 @@ select {
   background-color: transparent !important;
 }
 .form-div {
-  margin-top: 10rem !important;
+  margin-top: 2rem !important;
   /* background-image: linear-gradient(to bottom right, #efff00, #00dcff); */
   border: 1px solid var(--themeColor) !important;
   border-radius: 1.5em !important;

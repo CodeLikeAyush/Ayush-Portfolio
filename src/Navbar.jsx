@@ -38,11 +38,11 @@ function Navbar() {
                                 >Contact Me</NavLink>
                             </li>
 
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <NavLink className="nav-link " style={{ color: "#ff008d" }} to="/projects"
                                     activeClassName="active"
                                 >Projects</NavLink>
-                            </li>
+                            </li> */}
 
 
 
