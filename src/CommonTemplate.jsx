@@ -1,6 +1,4 @@
 import React from "react";
-import hello from '../src/static/images/hello.png'
-import contact from '../src/static/images/contact.png'
 
 function CommonTemplate(props) {
     return (

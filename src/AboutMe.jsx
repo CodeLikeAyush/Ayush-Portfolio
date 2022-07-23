@@ -1,7 +1,5 @@
 import React from 'react'
-import Footer from './Footer';
 
-import VerticalLinearStepper from './VertStepper';
 
 // import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
@@ -17,7 +15,7 @@ function AboutMe() {
                 className="container mx-auto mt-5"
                 style={{ marginBottom: '500px ' }}>
                 <h1
-                    className="text-center my-1 text-primary">
+                    className="text-center my-1 text-dark">
 
                     About Me</h1>
                 <br />
@@ -26,12 +24,12 @@ function AboutMe() {
 
 
                 <div className='d-block my-3 '>
-                    <h1 className='text-left px-5 py-2 bg-danger'>🗒️education</h1>
+                    <h1 className='text-left px-5 py-2 bg-warning'style={{width:"90vw"}}>🗒️education</h1>
                 </div>
                 <br />
 
 
-                <div className='d-block my-5' style={{ width: "90vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
+                <div className='d-block my-5 bg-info' style={{ width: "70vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
                     <h3 className='my-3 text-center'>High School🏫</h3>
                     <div className='mx-3'>
                         <ul>
@@ -42,7 +40,7 @@ function AboutMe() {
                     </div>
                 </div>
                 <br />
-                <div className='d-block my-5' style={{ width: "90vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
+                <div className='d-block my-5 bg-info' style={{ width: "70vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
                     <h3 className='my-3 text-center'>📚Intermediate</h3>
                     <div className='mx-3'>
                         <ul>
@@ -53,7 +51,7 @@ function AboutMe() {
                     </div>
                 </div>
                 <br />
-                <div className='d-block my-5' style={{ width: "90vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
+                <div className='d-block my-5 bg-info' style={{ width: "70vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
                     <h3 className='my-3 text-center'>🎓College</h3>
                     <div className='mx-3'>
                         <ul>
@@ -68,12 +66,12 @@ function AboutMe() {
                 <br />
                 {/* <div style={{ height: "15em" }}></div> */}
                 <div className='d-block my-3 '>
-                    <h1 className='text-left px-5 py-2 bg-danger'>⚙️skills</h1>
+                    <h1 className='text-left px-5 py-2 bg-warning'>⚙️skills</h1>
                 </div>
                 <br />
 
 
-                <div className='d-block my-5' style={{ width: "90vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
+                <div className='d-block my-5 bg-info' style={{ width: "70vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
                     <h3 className='my-3 text-center'>🧑🏿‍💻Competitive Coding</h3>
                     <div className='mx-3'>
                         <ul>
@@ -84,7 +82,7 @@ function AboutMe() {
                     </div>
                 </div>
                 <br />
-                <div className='d-block my-5' style={{ width: "90vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
+                <div className='d-block my-5 bg-info' style={{ width: "70vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
                     <h3 className='my-3 text-center'>🔎web development</h3>
                     <div className='mx-3'>
                         <ul>

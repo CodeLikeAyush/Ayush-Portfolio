@@ -15,7 +15,7 @@ function ContactMe() {
     return (
 
         <>
-            <CommonTemplate H1="Good decision📌" H2="To contact me" name="" para="So just scroll down and fill-up the form." imgSrc={contact} btnText="Scroll Down" link="" targt="" scrollFunc={functoScroll} className="my-5" />
+            <CommonTemplate H1="Your Opinion📌" H2="Is Valued." name="" para="So just scroll down and fill-up the form." imgSrc={contact} btnText="Scroll Down" link="" targt="" scrollFunc={functoScroll} className="my-5" />
 
             <br />
             <br />
@@ -24,7 +24,7 @@ function ContactMe() {
             <br />
             <br />
             <h1
-                className="text-center text-primary">
+                className="text-center text-primary text-dark">
 
                 Contact Me</h1>
 
@@ -105,7 +105,7 @@ function ContactMe() {
                                 <div class="">
                                     <div class="radio">
                                         <label class="radio text">
-                                            <input name="radio" type="radio" checked value="First Choice" />
+                                            <input name="radio" type="radio" defaultChecked value="First Choice" />
                                             Male
                                         </label>
                                     </div>

@@ -6,7 +6,6 @@ import ContactMe from './ContactMe';
 import ErrorPage from './ErrorPage';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
-import CustomizedSnackbars from './SnackBar';
 
 
 
