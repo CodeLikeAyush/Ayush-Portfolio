@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './Card'
 
 
 // import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
@@ -9,6 +10,7 @@ function AboutMe() {
     return (
 
         <>
+            {/* <Card /> */}
             <div style={{ height: "3em" }}></div>
 
             <div
@@ -24,18 +26,22 @@ function AboutMe() {
 
 
                 <div className='d-block my-3 '>
-                    <h1 className='text-left px-5 py-2 bg-warning'style={{width:"90vw"}}>🗒️education</h1>
+                    <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️education</h1>
                 </div>
                 <br />
 
 
+
+                <br />
                 <div className='d-block my-5 bg-info' style={{ width: "70vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
-                    <h3 className='my-3 text-center'>High School🏫</h3>
+                    <h3 className='my-3 text-center'>🎓College</h3>
                     <div className='mx-3'>
                         <ul>
-                            <li>School : Jawahar Navodaya Vidyalaya Gaya-2, Bihar</li>
-                            <li>Percentage : 92%</li>
-                            <li>Passing Year : 2018</li>
+                            <li>Degree : B.Tech</li>
+                            <li>Stream : Mining Engineering</li>
+                            <li>Institute : National Institute of Technology Karnataka</li>
+                            <li>CGPA* : 7.71(4th semester) </li>
+                            <li>Passing Year : 2024</li>
                         </ul>
                     </div>
                 </div>
@@ -52,14 +58,12 @@ function AboutMe() {
                 </div>
                 <br />
                 <div className='d-block my-5 bg-info' style={{ width: "70vw", height: "15em", border: "3px solid black", borderRadius: "1em" }}>
-                    <h3 className='my-3 text-center'>🎓College</h3>
+                    <h3 className='my-3 text-center'>High School🏫</h3>
                     <div className='mx-3'>
                         <ul>
-                            <li>Degree : B.Tech</li>
-                            <li>Stream : Mining Engineering</li>
-                            <li>Institute : Jawahar Navodaya Vidyalaya, Bangalore Urban</li>
-                            <li>CGPA* : 7.2(*3rd semester) </li>
-                            <li>Passing Year : Currently enrolled</li>
+                            <li>School : Jawahar Navodaya Vidyalaya Gaya-2, Bihar</li>
+                            <li>Percentage : 92%</li>
+                            <li>Passing Year : 2018</li>
                         </ul>
                     </div>
                 </div>

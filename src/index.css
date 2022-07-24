@@ -261,12 +261,12 @@ footer {
 /* ______________________________certificate_card-styling start__________________________________ */
 
 
-.card {
+/* .card {
   height: 500px;
   width: 300px;
   display: inline-block;
   margin: 150px 20px !important;
-}
+} */
 
 
 
@@ -282,24 +282,33 @@ footer {
   box-shadow: 2px 2px 50px black;
   outline: none;
   display: inline-block;
-  height: 410px;
-  padding: 15px 25px;
-  border-radius: 15px;
+  height: 525px;
+  min-height: 525px;
+  width: 25%;
+  min-width: 320px;
+  padding: 0px 0px;
+  /* border-radius: 15px; */
   margin-top: 65px;
-  background-image: linear-gradient(to bottom left, var(--themeColor), var(--blackColor));
+  background-image: linear-gradient(to top left, var(--themeColor), var(--blackColor));
 }
 
 .card img {
-  border-radius: 7px;
-  height: 175px;
-width: 250px;
-  margin: 25px 10px;
+  border-radius: 25px;
+  height: 225px;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }
 
 .card .info {
   margin: 8px;
   position: relative;
   bottom: -44px;
+  padding-left: 25px;
   background: none;
 }
 
@@ -317,11 +326,49 @@ width: 250px;
   line-height: 30px;
   font-size: 1.5rem;
   font-weight: bold;
-  width: 75%;
+  width: 100%;
   padding-bottom: 10px;
   background: none;
+}
+
+.card .btnDiv {
+  position: absolute;
+  /* margin-left: 5px; */
+  left: 25px;
+  bottom: 25px;
 }
 
 
 
 /* ______________________________certificate_card-styling start_______________________________________ */
+
+
+.popup-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #010101c2;
+  /* z-index: 100; */
+  display: block;
+}
+
+/* 
+.popup-image image{
+  height: 4000px;
+  width: 4000px;
+} */
+.pop_img {
+  border: 2px solid white;
+  height: 500px !important;
+  width: 500px !important;
+  position: fixed;
+  z-index: 101;
+  top: -55px;
+  left: 509px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: center center;
+
+}
