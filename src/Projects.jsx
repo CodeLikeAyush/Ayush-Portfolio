@@ -1,5 +1,4 @@
 import React from 'react'
-// import ImgMediaCard from './ProjectCard';
 import ImgMediaCard from './ProjectCard';
 
 function Projects() {
@@ -36,24 +35,7 @@ function Projects() {
                     <div class="col mb-5  " >
                         <ImgMediaCard />
                     </div>
-                    {/* <div className="col-12 col-sm-6 col-md-4 col-lg-3  " >
-                        <ImgMediaCard />
-                    </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3 " >
-                        <ImgMediaCard />
-                    </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3  " >
-                        <ImgMediaCard />
-                    </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3  " >
-                        <ImgMediaCard />
-                    </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3  " >
-                        <ImgMediaCard />
-                    </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3  " >
-                        <ImgMediaCard />
-                    </div> */}
+
                 </div>
             </div>
         </>

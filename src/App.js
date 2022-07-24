@@ -6,6 +6,7 @@ import ContactMe from './ContactMe';
 import ErrorPage from './ErrorPage';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
+import CertfCards from './Certificates';
 
 
 
@@ -22,6 +23,8 @@ function App() {
         {/* <Route exact path="/contact" element={<ContactMe name="Achkon" />} /> */}
         <Route exact path="/contact" element={<ContactMe />} />
         <Route exact path="/aboutme" element={<AboutMe />} />
+        <Route exact path="/certificates" element={<CertfCards />} />
+        {/* <Route exact path="/certificates" element={<Certificates />} /> */}
         <Route exact path="*" element={<ErrorPage />} />
       </Routes>
 
