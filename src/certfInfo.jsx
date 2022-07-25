@@ -3,27 +3,29 @@
 const imgPath = [
     {
         id: 1,
-        imgURL: 'https://drive.google.com/thumbnail?id=1nijIyzPcIKRmFHrui5K3LnWsHTNxhCKK',
+        imgURL: 'https://lh6.googleusercontent.com/1q5FH0ydOsr-PZbhdOtWjc1Fa9xTwau-uzMiakQ89kJ_sgdSiuHkb_r5j81Tc5zkQ94=w2400',
         para1: 'Fundamentals of Linux & Data Analytics',
         para2: '',
         para3: '',
         para4: '',
         para5: '',
         seriesName: 'Vi',
-        btnText: 'Read More',
-        Link: "https://www.netflix.com/in/title/81040344"
+        btnText: 'View Card',
+        Link: "https://drive.google.com/file/d/1nijIyzPcIKRmFHrui5K3LnWsHTNxhCKK/view?usp=sharing",
+        target: '_blank'
     },
     {
         id: 2,
-        imgURL: 'https://drive.google.com/thumbnail?id=1LSpjHFUYOlVzUa9Av3AOqdhWrtREkal2',
+        imgURL: 'https://lh3.googleusercontent.com/97fLt0mSN43gJNcxJZcRFEQroElMab27WrBnL9Lo-1PAsCSMWfzaXWI5hKMnQLq78gM=w2400',
         para1: 'Programming with Python 3.X',
         para2: '',
         para3: '',
         para4: '',
         para5: '',
         seriesName: 'SkillUP',
-        btnText: 'Read More',
-        Link: "https://www.netflix.com/in/title/81040344"
+        btnText: 'View Card',
+        Link: "https://drive.google.com/file/d/1LSpjHFUYOlVzUa9Av3AOqdhWrtREkal2/view?usp=sharing",
+        target: '_blank'
     },
     // {
     //     id: 3,

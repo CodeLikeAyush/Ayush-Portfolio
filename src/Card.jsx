@@ -20,9 +20,9 @@ const CertfCard = (props) => {
                     <br />
                     <br />
                 </div>
-                    <div className="btnDiv" >
-                        <a href={props.link} className="btn btn-sm" onClick={props.scrollFunc} target={props.targt} data-bs-toggle="modal" data-bs-target="#exampleModal">{props.btnText} </a>
-                    </div>
+                <div className="btnDiv" >
+                    <a href={props.watchLink} className="btn btn-sm" onClick={props.scrollFunc} target={props.target} >{props.btnText} </a>
+                </div>
 
             </div>
         </>

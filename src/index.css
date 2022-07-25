@@ -5,14 +5,18 @@
   --themeColor: #02ccc0;
   --lightThemeColor: #7bfaf1;
   --blackColor: rgb(0, 0, 0);
+  --slightblackColor: rgb(48, 48, 48);
   --lightColor: white;
 }
 
 
 .navbar {
   background-color: var(--themeColor) !important;
+  border-bottom-left-radius: 130px;
   font-weight: bold;
   padding: 0px 20px;
+  background-image: linear-gradient(to bottom left, var(--themeColor), var(--slightblackColor));
+
 }
 
 .nav-item a {
@@ -89,6 +93,7 @@ body {
   font-size: 1.4rem;
   text-transform: capitalize;
   line-height: 1.4;
+  color: var(--lightColor);
 }
 
 strong {
@@ -119,6 +124,7 @@ a {
   margin: 1.9rem 0 2.5rem;
   max-width: 600px;
   line-height: 2.3;
+  color: var(--lightColor);
 }
 
 input[type="radio"] {
@@ -261,12 +267,12 @@ footer {
 /* ______________________________certificate_card-styling start__________________________________ */
 
 
-/* .card {
+.card {
   height: 500px;
   width: 300px;
   display: inline-block;
   margin: 150px 20px !important;
-} */
+}
 
 
 
