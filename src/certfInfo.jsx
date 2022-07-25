@@ -1,5 +1,3 @@
-// import ''
-
 const imgPath = [
     {
         id: 1,
