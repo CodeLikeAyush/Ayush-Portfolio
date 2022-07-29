@@ -1,21 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-
-  --themeColor: #02ccc0;
-  --lightThemeColor: #7bfaf1;
+  --themeDarkColor: rgb(2, 100, 120);
+  --themePrimaryColor: #02ccc0;
+  --themeSecondaryColor: #7bfaf1;
+  /* --primaryContrastColor: #ffc107; */
+  --primaryContrastColor: #e4e400;
   --blackColor: rgb(0, 0, 0);
   --slightblackColor: rgb(48, 48, 48);
-  --lightColor: white;
+  --whiteColor: white;
 }
 
 
 .navbar {
-  background-color: var(--themeColor) !important;
+  background-color: var(--themePrimaryColor) !important;
   border-bottom-left-radius: 130px;
   font-weight: bold;
   padding: 0px 20px;
-  background-image: linear-gradient(to bottom left, var(--themeColor), var(--slightblackColor));
+  background-image: linear-gradient(to bottom left, var(--themePrimaryColor), var(--slightblackColor));
 
 }
 
@@ -25,14 +27,14 @@
 }
 
 .active {
-  color: var(--lightColor) !important;
+  color: var(--whiteColor) !important;
 }
 
 
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(49, 104, 121) !important;
+  background-color: var(--themeDarkColor) !important;
 
   overflow-x: hidden;
   width: 100%;
@@ -93,11 +95,11 @@ body {
   font-size: 1.4rem;
   text-transform: capitalize;
   line-height: 1.4;
-  color: var(--lightColor);
+  color: var(--whiteColor);
 }
 
 strong {
-  color: var(--themeColor);
+  color: var(--primaryContrastColor);
 }
 
 a {
@@ -106,17 +108,17 @@ a {
 
 .btn {
   padding: 0.7em 1.9em;
-  color: var(--themeColor) !important;
-  border: 1px solid var(--themeColor) !important;
+  color: var(--primaryContrastColor) !important;
+  border: 1px solid var(--primaryContrastColor) !important;
   background-color: transparent;
   border-radius: 60px;
   transition: all 0.7s ease;
 }
 
 .btn:hover {
-  background-color: var(--themeColor);
+  background-color: var(--primaryContrastColor);
   color: var(--blackColor) !important;
-  border: 1px solid var(--themeColor);
+  border: 1px solid var(--themePrimaryColor);
 }
 
 .text {
@@ -124,7 +126,7 @@ a {
   margin: 1.9rem 0 2.5rem;
   max-width: 600px;
   line-height: 2.3;
-  color: var(--lightColor);
+  color: var(--whiteColor);
 }
 
 input[type="radio"] {
@@ -187,7 +189,7 @@ select {
 
 @media screen and (max-width: 992px) {
   .navbar {
-    background-color: var(--themeColor) !important;
+    background-color: var(--themePrimaryColor) !important;
   }
 
   .nav-link {
@@ -195,7 +197,7 @@ select {
   }
 
   .active {
-    color: var(--lightColor) !important;
+    color: var(--whiteColor) !important;
   }
 
   .NavGitHub {
@@ -258,7 +260,7 @@ select {
 
 
 footer {
-  background-color: var(--themeColor);
+  background-color: var(--themePrimaryColor);
 }
 
 /* ________________________________footer-styling end____________________________ */
@@ -295,7 +297,7 @@ footer {
   padding: 0px 0px;
   /* border-radius: 15px; */
   margin-top: 65px;
-  background-image: linear-gradient(to top left, var(--themeColor), var(--blackColor));
+  background-image: linear-gradient(to top left, var(--themePrimaryColor), var(--blackColor));
 }
 
 .card img {
@@ -319,7 +321,7 @@ footer {
 }
 
 .card span {
-  color: var(--lightColor);
+  color: var(--whiteColor);
   margin: 6px;
   line-height: 10px;
   font-size: large;
@@ -327,7 +329,7 @@ footer {
 }
 
 .card h3 {
-  color: var(--lightColor);
+  color: var(--whiteColor);
   margin: 4px;
   line-height: 30px;
   font-size: 1.5rem;
