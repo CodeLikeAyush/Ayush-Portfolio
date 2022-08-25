@@ -28,7 +28,7 @@ function ContactMe() {
 
                 Contact Me</h1>
 
-            <div class="container-fluid w-75 mx-auto border rounded py-5 px-5 form-div" id="top" >
+            <div class="container-fluid w-75 mx-auto rounded py-5 px-5 form-div" id="top" >
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <form method="post">

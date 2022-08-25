@@ -154,15 +154,17 @@ select {
   padding: 0.5em auto !important;
   outline: none;
   color: var(--blackColor) !important;
-  font-size: 1.3em !important;
+  font-size: 1em !important;
   background-color: transparent !important;
 }
 
 .form-div {
   margin-top: 2rem !important;
-  background-image: linear-gradient(to bottom right, #00dcff, #f2ff43);
-  border: 1px solid var(--blackColor);
-  border-radius: 1.5em !important;
+  /* border: 1px solid var(--blackColor); */
+  /* border: none; */
+  /* outline: none; */
+  background-color: #00435a;
+  /* border-radius: 1.5em !important; */
   box-shadow: 2px 2px 50px var(--blackColor);
 }
 
@@ -209,11 +211,6 @@ select {
   }
 }
 
-.card {
-  box-shadow: 2px 2px 15px var(--blackColor);
-  /* background-image: linear-gradient(to bottom right, #efff00, #00dcff); */
-  /* background-color: #00e1ff; */
-}
 
 @media screen and (max-width: 870px) {
   .showcase-area .container {
@@ -274,6 +271,18 @@ footer {
   width: 300px;
   display: inline-block;
   margin: 150px 20px !important;
+  box-shadow: 2px 2px 50px black;
+  /* outline: none; */
+  display: inline-block;
+  height: 525px;
+  min-height: 525px;
+  width: 25%;
+  min-width: 320px;
+  padding: 0px 0px;
+  /* border-radius: 15px; */
+  border: none;
+  margin-top: 65px;
+  background-image: linear-gradient(to top left, var(--themePrimaryColor), var(--blackColor));
 }
 
 
