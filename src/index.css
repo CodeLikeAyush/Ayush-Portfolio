@@ -5,7 +5,8 @@
   --themePrimaryColor: #02ccc0;
   --themeSecondaryColor: #7bfaf1;
   /* --primaryContrastColor: #ffc107; */
-  --primaryContrastColor: #e4e400;
+  /* --primaryContrastColor: #e4e400; */
+  --primaryContrastColor: #c45200;
   --blackColor: rgb(0, 0, 0);
   --slightblackColor: rgb(48, 48, 48);
   --whiteColor: white;
@@ -22,12 +23,12 @@
 }
 
 .nav-item a {
-  color: var(--blackColor);
+  color: white !important;
 
 }
 
-.active {
-  color: var(--whiteColor) !important;
+.nav-item a.active {
+  color: var(--primaryContrastColor) !important;
 }
 
 
@@ -109,7 +110,8 @@ a {
 .btn {
   padding: 0.7em 1.9em;
   color: var(--primaryContrastColor) !important;
-  border: 1px solid var(--primaryContrastColor) !important;
+  font-weight: bold;
+  border: 2px solid var(--primaryContrastColor) !important;
   background-color: transparent;
   border-radius: 60px;
   transition: all 0.7s ease;
@@ -166,6 +168,10 @@ select {
   background-color: #00435a;
   /* border-radius: 1.5em !important; */
   box-shadow: 2px 2px 50px var(--blackColor);
+}
+
+.form-div form input {
+  color: white;
 }
 
 /* ----- */
@@ -233,7 +239,15 @@ select {
   #home {
     padding: unset;
   }
+
+  .flexCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
+
 
 @media screen and (max-width: 470px) {
   .container {
@@ -300,7 +314,7 @@ footer {
   outline: none;
   display: inline-block;
   height: 525px;
-  min-height: 525px;
+  min-height: 600px;
   width: 25%;
   min-width: 320px;
   padding: 0px 0px;
@@ -327,6 +341,10 @@ footer {
   bottom: -44px;
   padding-left: 25px;
   background: none;
+}
+
+.card .info h3 {
+  color: var(--primaryContrastColor);
 }
 
 .card span {

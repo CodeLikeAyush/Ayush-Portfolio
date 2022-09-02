@@ -17,13 +17,8 @@ function AboutMe() {
 
             <div style={{ height: "3em" }}></div>
 
-            <div
-                className="container mx-auto mt-5"
-                style={{ marginBottom: '500px ' }}>
-                <h1
-                    className="text-center my-1 text-dark">
-
-                    About Me</h1>
+            <div className="container mx-auto mt-5" style={{ marginBottom: '500px ' }}>
+                <h1 className="text-center my-1 text-light">About Me</h1>
                 <br />
                 <br />
                 <br />
@@ -33,7 +28,7 @@ function AboutMe() {
                     <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️education</h1>
                 </div>
                 <br />
-                <div style={{ width: "100vw" }}>
+                <div className='flexCard' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     {educationData.map((val) => {
                         return (
                             <Card image={val.imgURL} watchLink={val.Link} name={val.seriesName} key={val.id} btnText={val.btnText} para1={val.para1} para2={val.para2} para3={val.para3} para4={val.para4} target={val.target} />
@@ -44,14 +39,14 @@ function AboutMe() {
                 <br />
 
                 {/* <div style={{ height: "15em" }}></div> */}
-                <div className='d-block my-3 '>
-                    <h1 className='text-left px-5 py-2 bg-warning'>⚙️skills</h1>
+                <div className='d-block my-3'>
+                    <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️projects</h1>
                 </div>
                 <br />
 
 
 
-                <div style={{ width: "100vw" }}>
+                <div className='flexCard' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     {skillsData.map((val) => {
                         return (
                             <Card image={val.imgURL} watchLink={val.Link} name={val.seriesName} key={val.id} btnText={val.btnText} para1={val.para1} para2={val.para2} para3={val.para3} para4={val.para4} target={val.target} />

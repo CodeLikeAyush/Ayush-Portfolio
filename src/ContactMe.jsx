@@ -24,7 +24,7 @@ function ContactMe() {
             <br />
             <br />
             <h1
-                className="text-center text-primary text-dark">
+                className="text-center text-primary text-light">
 
                 Contact Me</h1>
 

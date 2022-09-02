@@ -1,13 +1,13 @@
 const imgPath = [
     {
         id: 1,
-        imgURL: 'https://lh6.googleusercontent.com/1q5FH0ydOsr-PZbhdOtWjc1Fa9xTwau-uzMiakQ89kJ_sgdSiuHkb_r5j81Tc5zkQ94=w2400',
-        para1: 'Fundamentals of Linux & Data Analytics',
-        para2: '',
+        imgURL: 'https://lh3.googleusercontent.com/97fLt0mSN43gJNcxJZcRFEQroElMab27WrBnL9Lo-1PAsCSMWfzaXWI5hKMnQLq78gM=w2400',
+        para1: 'Fundamentals of Linux & ',
+        para2: 'Data Analytics',
         para3: '',
         para4: '',
         para5: '',
-        seriesName: 'Vi',
+        seriesName: 'V!',
         btnText: 'View Card',
         Link: "https://drive.google.com/file/d/1nijIyzPcIKRmFHrui5K3LnWsHTNxhCKK/view?usp=sharing",
         target: '_blank'
