@@ -33,7 +33,7 @@ const projectData = [
         para3: 'Fetched news data from an open-source API',
         para4: 'Note : site may not work as API is restricts use for development purpose only',
         btnText: 'Daily Digest',
-        Link: "https://codelikeayush.github.io/Note-Taking-App/",
+        Link: "https://codelikeayush.github.io/Ayush-Daily-News/",
         target: '_blank'
     },
     {
