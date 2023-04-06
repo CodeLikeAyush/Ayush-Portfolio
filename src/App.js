@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
 import Projects from './Projects';
@@ -12,10 +12,14 @@ import CertfCards from './Certificates';
 
 import { Routes, Route } from 'react-router-dom';
 function App() {
+  const [likes, incrementLikes] = useState(0);
   return (
     <>
       <Navbar />
-      {/* <CustomizedSnackbars /> */}
+      <div style={{ border: "1px solid white", borderRadius: "100%", height: "65px", width: "65px", position: "fixed", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", bottom: "100px", right: "50px", zIndex: "5", background: "yellow",userSelect:"none" }}>
+        <span class="material-symbols-outlined" style={{ cursor: "pointer" }} onClick={() => incrementLikes(likes => likes + 1)}>thumb_up</span>
+        <span>{likes}</span>
+      </div>
       <Routes>
 
         <Route exact path="/" element={<Home />} />
