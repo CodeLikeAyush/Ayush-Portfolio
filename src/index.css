@@ -109,17 +109,17 @@ a {
 
 .btn {
   padding: 0.7em 1.9em;
-  color: var(--primaryContrastColor) !important;
+  color: var(--blackColor) !important;
+  background-color: var(--primaryContrastColor);
   font-weight: bold;
   border: 2px solid var(--primaryContrastColor) !important;
-  background-color: transparent;
   border-radius: 60px;
   transition: all 0.7s ease;
 }
 
 .btn:hover {
-  background-color: var(--primaryContrastColor);
-  color: var(--blackColor) !important;
+  color: var(--primaryContrastColor) !important;
+  background-color: transparent;
   border: 1px solid var(--themePrimaryColor);
 }
 

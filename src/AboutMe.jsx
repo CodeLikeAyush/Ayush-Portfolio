@@ -25,7 +25,7 @@ function AboutMe() {
 
 
                 <div className='d-block my-3 '>
-                    <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️education</h1>
+                    <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️Education</h1>
                 </div>
                 <br />
                 <div className='flexCard' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -40,7 +40,7 @@ function AboutMe() {
 
                 {/* <div style={{ height: "15em" }}></div> */}
                 <div className='d-block my-3'>
-                    <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️projects</h1>
+                    <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️Skills</h1>
                 </div>
                 <br />
 

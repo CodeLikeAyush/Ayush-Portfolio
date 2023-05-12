@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div style={{ border: "8px double red", borderRadius: "100%", height: "65px", width: "65px", position: "fixed", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", bottom: "100px", right: "50px", zIndex: "5", background: "yellow",userSelect:"none" }}>
+      <div style={{ border: "8px double white", borderRadius: "100%", height: "65px", width: "65px", position: "fixed", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", bottom: "100px", right: "50px",padding:"30px 30px", zIndex: "5", background: "#c45200",userSelect:"none" }}>
         <span class="material-symbols-outlined" style={{ cursor: "pointer" }} onClick={() => incrementLikes(likes => likes + 1)}>thumb_up</span>
         <span>{likes}</span>
       </div>
