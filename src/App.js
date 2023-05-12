@@ -12,7 +12,7 @@ import CertfCards from './Certificates';
 
 import { Routes, Route } from 'react-router-dom';
 function App() {
-  const [likes, incrementLikes] = useState(0);
+  const [likes, incrementLikes] = useState(10);
   return (
     <>
       <Navbar />
