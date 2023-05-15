@@ -31,7 +31,7 @@ function ContactMe() {
             <div class="container-fluid mx-auto rounded py-5 px-5 form-div" id="top" >
                 <div class="row">
                     <div class="col-md-10 col-sm-10 col-xs-20">
-                        <form method="post">
+                        <form action="https://formsubmit.co/achkongaming@gmail.com" method="POST">
                             <div class="form-group ">
                                 <label class="control-label requiredField text" for="name">
                                     Name
@@ -50,7 +50,7 @@ function ContactMe() {
                                         *
                                     </span>
                                 </label>
-                                <input required class="form-control" id="email" name="email" type="text" />
+                                <input required class="form-control" id="email" name="email" placeholder="Your Email" type="email" />
                             </div>
                             <br />
 
@@ -66,10 +66,10 @@ function ContactMe() {
                             <br />
 
                             <div class="form-group ">
-                                <label class="control-label text" for="select">
+                                <label class="control-label text" for="role">
                                     What describes you best?
                                 </label>
-                                <select class="select form-control" id="select" name="select">
+                                <select class="select form-control" id="select" name="role">
                                     <option value="First Choice">
                                         select from dropdown
                                     </option>
@@ -105,19 +105,19 @@ function ContactMe() {
                                 <div class="">
                                     <div class="radio">
                                         <label class="radio text">
-                                            <input name="radio" type="radio" defaultChecked value="First Choice" />
+                                            <input name="gender" type="radio" defaultChecked value="First Choice" />
                                             Male
                                         </label>
                                     </div>
                                     <div class="radio">
                                         <label class="radio text">
-                                            <input name="radio" type="radio" value="Second Choice" />
+                                            <input name="gender" type="radio" value="Second Choice" />
                                             Female
                                         </label>
                                     </div>
                                     <div class="radio">
                                         <label class="radio text">
-                                            <input name="radio" type="radio" value="Third Choice" />
+                                            <input name="gender" type="radio" value="Third Choice" />
                                             Others
                                         </label>
                                     </div>
