@@ -70,14 +70,17 @@ function ContactMe() {
                                     What describes you best?
                                 </label>
                                 <select class="select form-control" id="select" name="role">
-                                    <option value="First Choice">
+                                    <option value="not selected">
                                         select from dropdown
                                     </option>
-                                    <option value="Second Choice">
+                                    <option value="student">
                                         student
                                     </option>
-                                    <option value="Third Choice">
+                                    <option value="developer">
                                         developer
+                                    </option>
+                                    <option value="other">
+                                        others
                                     </option>
                                 </select>
                             </div>
@@ -105,19 +108,19 @@ function ContactMe() {
                                 <div class="">
                                     <div class="radio">
                                         <label class="radio text">
-                                            <input name="gender" type="radio" defaultChecked value="First Choice" />
+                                            <input name="gender" type="radio" defaultChecked value="male" />
                                             Male
                                         </label>
                                     </div>
                                     <div class="radio">
                                         <label class="radio text">
-                                            <input name="gender" type="radio" value="Second Choice" />
+                                            <input name="gender" type="radio" value="female" />
                                             Female
                                         </label>
                                     </div>
                                     <div class="radio">
                                         <label class="radio text">
-                                            <input name="gender" type="radio" value="Third Choice" />
+                                            <input name="gender" type="radio" value="others" />
                                             Others
                                         </label>
                                     </div>
