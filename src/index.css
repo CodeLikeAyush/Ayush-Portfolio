@@ -152,22 +152,26 @@ input,
 textarea,
 select {
   border: 1.5px solid var(--blackColor) !important;
-  border-radius: 0.5em !important;
+  /* border-radius: 0.5em !important; */
   padding: 0.5em auto !important;
   outline: none;
   color: var(--blackColor) !important;
   font-size: 1em !important;
-  background-color: transparent !important;
+  background-color: #00000024 !important;
 }
 
 .form-div {
   margin-top: 2rem !important;
   /* border: 1px solid var(--blackColor); */
-  /* border: none; */
+  border: none;
   /* outline: none; */
-  background-color: #00435a;
+  background-color: transparent;
   /* border-radius: 1.5em !important; */
-  box-shadow: 2px 2px 50px var(--blackColor);
+  box-shadow: var(--blackColor) 2px 2px 11px -1px;
+}
+
+#top {
+  width: 90%;
 }
 
 .form-div form input {
