@@ -39,7 +39,7 @@ function AboutMe() {
                 <br />
 
                 {/* <div style={{ height: "15em" }}></div> */}
-                <div className='d-block my-3'>
+                <div className='d-block my-5'>
                     <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️Skills</h1>
                 </div>
                 <br />
