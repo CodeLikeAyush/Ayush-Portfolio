@@ -292,6 +292,8 @@ footer {
   min-height: 600px;
   width: 25%;
   min-width: 320px;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
   padding: 0px 0px;
   /* border-radius: 15px; */
   margin-top: 65px !important;
