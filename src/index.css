@@ -285,21 +285,16 @@ footer {
 
 
 .card {
-  height: 500px;
-  width: 300px;
-  display: inline-block;
-  margin: 150px 20px !important;
-  box-shadow: 2px 2px 50px black;
-  /* outline: none; */
+  box-shadow: 3px 3px 9px -2px black;
+  border: none;
   display: inline-block;
   height: 525px;
-  min-height: 525px;
+  min-height: 600px;
   width: 25%;
   min-width: 320px;
   padding: 0px 0px;
   /* border-radius: 15px; */
-  border: none;
-  margin-top: 65px;
+  margin-top: 65px !important;
   background-image: linear-gradient(to top left, var(--themePrimaryColor), var(--blackColor));
 }
 
@@ -313,19 +308,6 @@ footer {
 
 
 
-.card {
-  box-shadow: 2px 2px 50px black;
-  outline: none;
-  display: inline-block;
-  height: 525px;
-  min-height: 600px;
-  width: 25%;
-  min-width: 320px;
-  padding: 0px 0px;
-  /* border-radius: 15px; */
-  margin-top: 65px;
-  background-image: linear-gradient(to top left, var(--themePrimaryColor), var(--blackColor));
-}
 
 .card img {
   border-radius: 25px;
