@@ -17,14 +17,14 @@ function AboutMe() {
 
             <div style={{ height: "3em" }}></div>
 
-            <div className="container mx-auto mt-5" style={{ marginBottom: '500px ' }}>
-                <h1 className="text-center my-1 text-light">About Me</h1>
+            <div className="container mx-auto mt-5 " style={{ marginBottom: '500px ' }}>
+                <h1 className="text-center my-1 text-light skeleton">About Me</h1>
                 <br />
                 <br />
                 <br />
 
 
-                <div className='d-block my-3 '>
+                <div className='d-block my-3 skeleton'>
                     <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️Education</h1>
                 </div>
                 <br />
@@ -40,7 +40,7 @@ function AboutMe() {
 
                 {/* <div style={{ height: "15em" }}></div> */}
                 <div className='d-block my-5'>
-                    <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️Skills</h1>
+                    <h1 className='text-left px-5 py-2 bg-warning skeleton' style={{ width: "90vw" }}>🗒️Skills</h1>
                 </div>
                 <br />
 

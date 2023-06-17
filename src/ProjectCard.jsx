@@ -5,7 +5,7 @@ import './index.css';
 
 export default function ImgMediaCard() {
     return (
-        <div class="card mx-auto" style={{ width: "18rem" }}>
+        <div class="card mx-auto " style={{ width: "18rem" }}>
             {/* <img src="https://picsum.photos/200/100" class="card-img-top" alt="..." /> */}
             <iframe src="https://mern-frontend-ayush.netlify.app/profile" allowfullscreen frameborder="0"></iframe>
             <div class="card-body">

@@ -1,15 +1,18 @@
 import * as React from 'react';
 import "./index.css"
 
-const CertfCard = (props) => {
+const Card = (props) => {
     return (
         <>
-            <div className="card card-elem">
-                <img src={props.image}
-                    alt="img_here" srcSet="" />
+            <div className="card card-elem skeleton">
+                <div className="skeleton" style={{ borderTopLeftRadius: '0px', borderTopRightRadius: '0px', borderBottomLeftRadius: '100px', borderBottomRightRadius: '0', }}>
 
-                <div className="info">
-                    <h3>{props.name}</h3>
+                    <img src={props.image}
+                        alt="img_here" srcSet="" />
+                </div>
+
+                <div className="info ">
+                    <h3 className=''>{props.name}</h3>
                     <span>{props.para1}</span>
                     <br />
                     <span>{props.para2}</span>
@@ -20,7 +23,7 @@ const CertfCard = (props) => {
                     <br />
                     <br />
                 </div>
-                <div className="btnDiv" >
+                <div className="btnDiv " >
                     <a href={props.watchLink} className="btn btn-sm" onClick={props.scrollFunc} target={props.target} >{props.btnText} </a>
                 </div>
 
@@ -30,4 +33,4 @@ const CertfCard = (props) => {
     )
 }
 
-export default CertfCard;
+export default Card;

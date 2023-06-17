@@ -17,7 +17,7 @@ import footerLinks from './FooterLinks';
 function Footer() {
     return (
         <>
-            <footer className="text-center text-lg-start sticky-bottom mt-5" >
+            <footer className="text-center text-lg-start sticky-bottom mt-5 skeleton" >
                 <div className="container-fluid d-flex justify-content-center py-5">
                     <Stack direction="row" spacing={5}>
                         <Button

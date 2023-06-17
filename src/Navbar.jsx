@@ -14,7 +14,7 @@ function Navbar() {
 
     return (
         <>
-            <nav id='navbox' className="navbar navbar-expand-lg navbar-light bg-dark fixed-top fs-4 w-100">
+            <nav id='navbox' className="navbar navbar-expand-lg navbar-light bg-dark fixed-top fs-4 w-100 skeleton">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">{<ImageAvatars />}</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,29 +24,29 @@ function Navbar() {
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <NavLink className="nav-link " aria-current="page" to="/"
-                                    activeClassName="is-active"
+                                    activeclassname="is-active"
                                 >Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link "
                                     to="/aboutme"
-                                    activeClassName="is-active"
+                                    activeclassname="is-active"
                                 >About Me</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link " to="/contact"
-                                    activeClassName="is-active"
+                                    activeclassname="is-active"
                                 >Contact Me</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link " to="/certificates"
-                                    activeClassName="is-active"
+                                    activeclassname="is-active"
                                 >Certificates</NavLink>
                             </li>
 
                             <li className="nav-item">
                                 <NavLink className="nav-link " to="/projects"
-                                    activeClassName="is-active"
+                                    activeclassname="is-active"
                                 >Projects</NavLink>
                             </li>
 

@@ -18,7 +18,7 @@ function Projects() {
                 className="container mx-auto mt-5"
                 style={{ marginBottom: '500px ' }}>
                 <h1
-                    className="text-center my-1 text-white">
+                    className="text-center my-1 text-white skeleton">
 
                     Projects</h1>
                 <br />
@@ -26,7 +26,7 @@ function Projects() {
                 <br />
 
 
-                <div className='d-block my-3'>
+                <div className='d-block my-3 skeleton'>
                     <h1 className='text-left px-5 py-2 bg-warning' style={{ width: "90vw" }}>🗒️Projects</h1>
                 </div>
 

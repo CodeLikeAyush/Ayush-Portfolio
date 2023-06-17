@@ -24,13 +24,13 @@ function ContactMe() {
             <br />
             <br />
             <h1
-                className="text-center text-primary text-light">
+                className="text-center text-primary text-light skeleton">
 
                 Contact Me</h1>
 
-            <div class="container-fluid mx-auto rounded py-5 px-5 form-div" id="top" >
+            <div class="container-fluid mx-auto rounded py-5 px-5 form-div skeleton" id="top" >
                 <div class="row">
-                    <div class="col-md-10 col-sm-10 col-xs-20">
+                    <div class="col-md-10 col-sm-10 col-xs-20 ">
                         <form action="https://formsubmit.co/achkon@zohomail.in" method="POST">
                             <div class="form-group ">
                                 <label class="control-label requiredField text" for="name">
@@ -84,23 +84,10 @@ function ContactMe() {
                                     </option>
                                 </select>
                             </div>
-                            {/* <div class="form-group ">
-                                <label class="control-label text">
-                                    Check all that apply
-                                </label>
-                                <div class=" ">
-                                    <div class="checkbox">
-                                        <label class="checkbox text">
-                                            <input name="checkbox" type="checkbox" value="First Choice" />
-                                            First Choice
-                                        </label>
-                                    </div>
-                                </div>
-                            </div> */}
+                            
                             <br />
                             <br />
                             <br />
-                            {/* <hr /> */}
                             <div class="form-group">
                                 <label class="control-label text">
                                     <strong>Gender:</strong>
