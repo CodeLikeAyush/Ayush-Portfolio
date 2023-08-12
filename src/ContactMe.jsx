@@ -56,7 +56,7 @@ function ContactMe() {
 
                             <div class="form-group ">
                                 <label class="control-label requiredField text" for="message">
-                                    Message
+                                    Message/Feedback/Query
                                     <span class="asteriskField">
                                         *
                                     </span>
@@ -68,23 +68,26 @@ function ContactMe() {
                             <div class="form-group ">
                                 <label class="control-label text" for="role">
                                     What describes you best?
+                                    <span class="asteriskField">
+                                        *
+                                    </span>
                                 </label>
                                 <select class="select form-control" id="select" name="role">
                                     <option value="not selected">
-                                        select from dropdown
+                                        Select From Dropdown
                                     </option>
                                     <option value="student">
-                                        student
+                                        Student
                                     </option>
                                     <option value="developer">
-                                        developer
+                                        Developer
                                     </option>
                                     <option value="other">
-                                        others
+                                        Others
                                     </option>
                                 </select>
                             </div>
-                            
+
                             <br />
                             <br />
                             <br />
