@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Ayush-Portfolio/static/css/main.3aa59db3.chunk.css",
-    "main.js": "/Ayush-Portfolio/static/js/main.17426068.chunk.js",
-    "main.js.map": "/Ayush-Portfolio/static/js/main.17426068.chunk.js.map",
+    "main.css": "/Ayush-Portfolio/static/css/main.d4500f09.chunk.css",
+    "main.js": "/Ayush-Portfolio/static/js/main.4f7808ec.chunk.js",
+    "main.js.map": "/Ayush-Portfolio/static/js/main.4f7808ec.chunk.js.map",
     "runtime-main.js": "/Ayush-Portfolio/static/js/runtime-main.d302d327.js",
     "runtime-main.js.map": "/Ayush-Portfolio/static/js/runtime-main.d302d327.js.map",
     "static/js/2.f379da67.chunk.js": "/Ayush-Portfolio/static/js/2.f379da67.chunk.js",
     "static/js/2.f379da67.chunk.js.map": "/Ayush-Portfolio/static/js/2.f379da67.chunk.js.map",
     "index.html": "/Ayush-Portfolio/index.html",
-    "static/css/main.3aa59db3.chunk.css.map": "/Ayush-Portfolio/static/css/main.3aa59db3.chunk.css.map",
+    "static/css/main.d4500f09.chunk.css.map": "/Ayush-Portfolio/static/css/main.d4500f09.chunk.css.map",
     "static/js/2.f379da67.chunk.js.LICENSE.txt": "/Ayush-Portfolio/static/js/2.f379da67.chunk.js.LICENSE.txt",
     "static/media/avatar.80df33a9.png": "/Ayush-Portfolio/static/media/avatar.80df33a9.png",
     "static/media/contact.fe3bd17f.png": "/Ayush-Portfolio/static/media/contact.fe3bd17f.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.d302d327.js",
     "static/js/2.f379da67.chunk.js",
-    "static/css/main.3aa59db3.chunk.css",
-    "static/js/main.17426068.chunk.js"
+    "static/css/main.d4500f09.chunk.css",
+    "static/js/main.4f7808ec.chunk.js"
   ]
 }
