@@ -1,19 +1,33 @@
 const educationData = [
     {
         id: 1,
-        imgURL: 'https://th.bing.com/th/id/OIP.ENuniNvIMmbLkc07-3j_DgHaDt?w=349&h=174&c=7&r=0&o=5&dpr=1.25&pid=1.7',
+        imgURL: 'https://static.toiimg.com/photo/imgsize-621129,msid-58332867/58332867.jpg',
         para1: 'Degree: B.Tech',
         para2: 'Stream: Mining Engineering',
-        para3: 'CGPA*: 7.71(4th semester)',
-        para4: 'Passing Year: 2024',
+        para3: 'SGPA: 8.19',
+        para4: 'CGPA: 7.73(6th semester)',
+        para5:'Passing Year: 2024',
         seriesName: 'National Institute of Technology Karnataka',
-        btnText: 'College',
+        btnText: 'NITK',
         Link: "https://www.nitk.ac.in/",
         target: '_blank'
     },
     {
         id: 2,
-        imgURL: 'https://th.bing.com/th/id/OIP.lY2iP6GKWQ1mpoZFYV2qowHaDg?w=333&h=166&c=7&r=0&o=5&dpr=1.25&pid=1.7',
+        imgURL: 'https://www.dakshana.org/wp-content/uploads/2017/07/a.jpg',
+        para1: '2 Year JEE Scholarship',
+        para2: 'COE Bangalore',
+        para3: 'Passing Year: 2020',
+        para4: '',
+        para5: '',
+        seriesName: 'Dakshna Foundation Scholar',
+        btnText: 'Dakshna Foundation',
+        Link: "https://www.dakshana.org/",
+        target: '_blank'
+    },
+    {
+        id: 3,
+        imgURL: 'https://static.toiimg.com/photo/msid-84606527/84606527.jpg',
         para1: 'Level: Intermediate',
         para2: 'Percentage : 92%',
         para3: 'Passing Year : 2020',
@@ -25,8 +39,8 @@ const educationData = [
         target: '_blank'
     },
     {
-        id: 3,
-        imgURL: 'https://navodaya.gov.in/nvs/export/sites/nvs/nvs-school/GAYA-2/images/activites-images/IMG_20200126_073451.jpg',
+        id: 4,
+        imgURL: 'https://static.toiimg.com/photo/msid-84606527/84606527.jpg',
         para1: 'Level: High School',
         para2: 'Percentage: 92%',
         para3: 'Passing Year: 2018',

@@ -17,7 +17,7 @@ function App() {
     <>
       <Navbar />
       {/* ---------Like----------: */}
-      <div className='skeleton' style={{ boxShadow: "black 1px 1px 5px -1px", borderRadius: "100%", height: "65px", width: "65px", position: "fixed", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", bottom: "1em", right: "1em", padding: "30px 30px", zIndex: "6", background: "#c45200", userSelect: "none" }}>
+      <div className='skeleton' style={{ boxShadow: "black 1px 1px 5px -1px", borderRadius: "100%", height: "65px", width: "65px", position: "fixed", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", bottom: "1em", right: "1em", padding: "30px 30px", zIndex: "6", background: "#ffbf00", userSelect: "none" }}>
         <span class="material-symbols-outlined" style={{ cursor: "pointer" }} onClick={() => incrementLikes(likes => likes + 1)}>thumb_up</span>
         <span>{likes}</span>
       </div>

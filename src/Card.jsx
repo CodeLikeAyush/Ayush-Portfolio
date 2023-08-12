@@ -8,7 +8,7 @@ const Card = (props) => {
                 <div className="skeleton" style={{ borderTopLeftRadius: '0px', borderTopRightRadius: '0px', borderBottomLeftRadius: '100px', borderBottomRightRadius: '0', }}>
 
                     <img src={props.image}
-                        alt="img_here" srcSet="" />
+                        alt="img_here" srcSet="" style={{ objectFit: 'cover',backgroundColor:'transparent' }} />
                 </div>
 
                 <div className="info ">
@@ -20,6 +20,8 @@ const Card = (props) => {
                     <span>{props.para3}</span>
                     <br />
                     <span>{props.para4}</span>
+                    <br />
+                    <span>{props.para5}</span>
                     <br />
                     <br />
                 </div>
