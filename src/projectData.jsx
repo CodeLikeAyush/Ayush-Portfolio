@@ -1,7 +1,7 @@
 const projectData = [
     {
         id: 1,
-        imgURL: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-wxfNWx_cEn_6AVy06woVL-cnoBd4IqsS5pqoLdVhwWdzj7Ae712gSRaiB6_ELifJS3KOnZge0XQO-gl1djnpBfSsPAXw=s1600',
+        imgURL: 'https://lh3.googleusercontent.com/drive-viewer/AK7aPaDZxAvluWeBM5q_fCl0L_QzZJVvk2SrSYkqeRE9-Ag6TWQL97wS-XHr-AQ-uky5NbJfnnjpfkpjU_Is3fB-rIRfegsPCA=s1600',
         seriesName: 'Portfolio Website',
         para1: 'You are viewing now :)',
         para2: 'React Js',
@@ -15,7 +15,7 @@ const projectData = [
 
     {
         id: 2,
-        imgURL: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-zw1FC1Ul1cKIenNEFk_coBKq7vKnSzrvWjhow7PhK9Kr5cxmpoEv4FuvF4od6pJKscb5BpziLlX6NkDCnfvMlq1AZHzQ=s1600',
+        imgURL: 'https://lh3.googleusercontent.com/drive-viewer/AK7aPaBYKrVw-QIFfBMBXd33e4bru78E0dOle_Pa8ClPUXxlit--X16f3VuUktYfX0biS6sOJ3VSC8Rbkt8CCQ4MKE4ObV0vqg=s1600',
         seriesName: 'Cafe-Management-System: Full Stack Web App',
         para1: 'NodeJs',
         para2: 'MySql',
@@ -28,7 +28,7 @@ const projectData = [
     },
     {
         id: 3,
-        imgURL: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-yW3YUbOVKQNYhCJxXGuDfkTt6B6JTLf1HfvaJ4jQv5dWhGFcMdnEp_ucMxxjxkw2SjofFx00_flrUIbpefWGA3PiXZZQ=s1600',
+        imgURL: 'https://lh3.googleusercontent.com/drive-viewer/AK7aPaA7U8qZzXF_i2W5_vM6vHQporg4wbmglh4-e4z-gNA8SY-SjEFFKKdXSFvOnmCAU4Pob9e_usAGp7ziy6TWdoIJ3-fYbQ=s1600',
         seriesName: 'Markdown Editor : A Desktop App using ElectronJs',
         para1: '',
         para2: '',
@@ -41,7 +41,7 @@ const projectData = [
 
     {
         id: 7,
-        imgURL: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-wTO9U-hC9hNemqZ6S9KVJEm07z5l_Cy2cdbYM9h6YqzxFSllJjs-MFEjCgurpWDdDniOXbPT3eewZtai8pkaoF_Z4qHA=s1600',
+        imgURL: 'https://lh3.googleusercontent.com/drive-viewer/AK7aPaCPQ7ukBvJdHWgztEj15nUbXIONa6WuIPbi9LIUH_TetJ_A3vrlCPWXcG33tMImwoAK1NoiWFSHDE8PnXW2REcilkq8sg=s1600',
         seriesName: 'Bangalore House Price Prediction using ML',
         para1: 'Machine Learning',
         para2: '',
