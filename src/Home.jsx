@@ -13,7 +13,7 @@ function Home() {
         name="Ayush Raj"
         para="With a lot of efforts and learnings,I created this website using React, Material-UI and Bootstrap. Hope you would like it."
         imgSrc={hello}
-        btnText="Resume"
+        btnText="📝 Resume"
         link="https://drive.google.com/file/d/16jJ18jo9DwtnIi20byrmTU_oSt9ybmRq/view?usp=sharing"
         targt="_blank"
       />
